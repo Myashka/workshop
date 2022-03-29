@@ -1,0 +1,129 @@
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255);
+}
+.logo {
+  font-size: 1.25rem;
+  margin: 0;
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+.logo a {
+  color: white;
+  text-decoration: none;
+}
+.navbar {
+  padding: 0;
+}
+.navbar-nav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.nav-link {
+  position: relative;
+}
+.nav-link,
+.nav-link:focus {
+  color: white;
+  margin: 10px 30px 10px 0px;
+}
+
+#logo-svg {
+  margin-right: 10px;
+}
+#contacts {
+  padding-right: 0px;
+}
+/*--------------------------------------------------------------
+# Academy
+--------------------------------------------------------------*/
+#academy {
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  overflow: hidden;
+}
+#academy .bg-image {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-image: url("../img/academy.jpg");
+}
+
+/*--------------------------------------------------------------
+# Sections
+--------------------------------------------------------------*/
+section {
+}
+
+#projects {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+/*--------------------------------------------------------------
+# Projects
+--------------------------------------------------------------*/
+
+.projects .projects-item {
+  margin-bottom: 30px;
+}
+
+.projects .projects-wrap {
+  box-shadow: 0px 2px 12px rgb(0 0 0 / 8%);
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.projects .projects-wrap .projects-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.3s;
+  text-align: center;
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.2)
+  );
+  padding-bottom: 30px;
+}
+.projects .projects-wrap:hover {
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.16);
+}
+.projects .projects-wrap:hover .projects-info {
+  opacity: 1;
+  padding-bottom: 0;
+}
+.projects .projects-wrap:hover img {
+  transform: scale(1.2);
+}
+.projects .projects-wrap .projects-info h4 {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .projects .projects-wrap .projects-info {
+    opacity: 1;
+    padding-bottom: 0;
+  }
+}
