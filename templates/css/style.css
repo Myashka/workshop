@@ -1,8 +1,26 @@
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+#header {
+  background-color: transparent;
+  color: #fff;
+}
+
+#header.active {
+  background-color: #fff;
+  box-shadow: rgb(0 0 0 / 13%) 0 4px 16px;
+  color: black;
+}
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255);
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0);
 }
 .logo {
   font-size: 1.25rem;
@@ -13,6 +31,9 @@
 .logo a {
   color: white;
   text-decoration: none;
+}
+.logo a.active {
+  color: black;
 }
 .navbar {
   padding: 0;
@@ -30,14 +51,13 @@
 .nav-link,
 .nav-link:focus {
   color: white;
-  margin: 10px 30px 10px 0px;
 }
 
-#logo-svg {
+.logo #logo-svg {
   margin-right: 10px;
 }
 #contacts {
-  padding-right: 0px;
+  
 }
 /*--------------------------------------------------------------
 # Academy
@@ -62,11 +82,11 @@
 # Sections
 --------------------------------------------------------------*/
 section {
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 #projects {
-  margin-top: 150px;
-  margin-bottom: 150px;
 }
 
 /*--------------------------------------------------------------
@@ -126,4 +146,40 @@ section {
     opacity: 1;
     padding-bottom: 0;
   }
+}
+/*--------------------------------------------------------------
+# Project-page
+--------------------------------------------------------------*/
+.content {
+  color: #000;
+}
+.content h3 {
+  font-size: 24px;
+}
+.content-title {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+}
+.content-btn {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 30px;
+  border: 1px #000 solid;
+  margin-top: 20px;
+}
+.content-btn:hover {
+  background: black;
+  color: white;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  background: #000000;
+  color: #fff;
+  font-size: 14px;
 }
