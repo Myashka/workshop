@@ -168,7 +168,8 @@ section {
   display: inline-block;
   padding: 8px 30px;
   border: 1px #000 solid;
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .content-btn:hover {
   background: black;
