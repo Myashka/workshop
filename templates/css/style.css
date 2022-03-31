@@ -57,7 +57,6 @@ img {
   margin-right: 10px;
 }
 #contacts {
-  
 }
 /*--------------------------------------------------------------
 # Academy
@@ -87,6 +86,10 @@ section {
 }
 
 #projects {
+}
+
+section#about {
+  padding-top: 100px;
 }
 
 /*--------------------------------------------------------------
@@ -156,9 +159,14 @@ section {
 .content h3 {
   font-size: 24px;
 }
-.content-title {
+.content-author a {
   color: rgba(0, 0, 0, 0.6);
   font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.content-author:hover a {
+  color: rgba(0, 0, 0);
 }
 .content-btn {
   text-decoration: none;
