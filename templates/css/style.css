@@ -56,8 +56,6 @@ img {
 .logo #logo-svg {
   margin-right: 10px;
 }
-#contacts {
-}
 /*--------------------------------------------------------------
 # Academy
 --------------------------------------------------------------*/
@@ -85,7 +83,7 @@ section {
   padding-bottom: 150px;
 }
 
-#projects {
+section#projects {
 }
 
 section#about {
