@@ -25,8 +25,12 @@ img {
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0);
 }
+.nav-link {
+  font-size: 16px;
+  position: relative;
+}
 .logo {
-  font-size: 1.25rem;
+  font-size: 20px;
   margin: 0;
   padding: 10px 0;
   text-transform: uppercase;
@@ -47,13 +51,6 @@ img {
   display: flex;
   list-style: none;
   align-items: center;
-}
-.nav-link {
-  position: relative;
-}
-.nav-link,
-.nav-link:focus {
-  color: white;
 }
 
 .logo #logo-svg {
@@ -88,6 +85,10 @@ section#projects {
 
 section#about {
   padding-top: 100px;
+}
+
+section#aboutus{
+  padding-bottom: 125px;
 }
 
 /*--------------------------------------------------------------
@@ -201,8 +202,12 @@ section#about {
   background-position: bottom;
   background-repeat: no-repeat;
   overflow: hidden;
-  /* background-image: url("../img/aboutus.jpg"); */
   background-color: black;
+}
+
+.aboutus .aboutus-text {
+  color: #fff;
+  font-size: 18px;
 }
 
 .aboutus .aboutus-item {
@@ -229,7 +234,8 @@ section#about {
 .aboutus .aboutus-item .aboutus-wrap p {
   font-size: 20px;
 }
-.aboutus .aboutus-item .aboutus-wrap h3, p{
+.aboutus .aboutus-item .aboutus-wrap h3,
+p {
   margin-left: 5px;
 }
 /*--------------------------------------------------------------
