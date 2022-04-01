@@ -26,14 +26,24 @@ img {
   color: rgba(0, 0, 0);
 }
 .nav-link {
-  font-size: 16px;
+  font-size: 18px;
   position: relative;
 }
+@media (max-width: 576px) {
+  .nav-link {
+    font-size: 16px;
+  }
+}
 .logo {
-  font-size: 20px;
+  font-size: 22px;
   margin: 0;
   padding: 10px 0;
   text-transform: uppercase;
+}
+@media (max-width: 576px) {
+  .logo {
+    font-size: 20px;
+  }
 }
 .logo a {
   color: white;
@@ -87,8 +97,9 @@ section#about {
   padding-top: 100px;
 }
 
-section#aboutus{
-  padding-bottom: 125px;
+section#contacts {
+  padding-top: 135px;
+  padding-bottom: 135px;
 }
 
 /*--------------------------------------------------------------
@@ -209,11 +220,14 @@ section#aboutus{
   color: #fff;
   font-size: 18px;
 }
-
+@media (max-width: 576px) {
+  .aboutus .aboutus-text {
+    font-size: 18px;
+  }
+}
 .aboutus .aboutus-item {
   margin-bottom: 40px;
 }
-
 .aboutus .aboutus-item .aboutus-wrap {
   box-shadow: 0px 2px 12px rgb(0 0 0 / 12%);
   transition: 0.3s;
@@ -235,8 +249,25 @@ section#aboutus{
   font-size: 20px;
 }
 .aboutus .aboutus-item .aboutus-wrap h3,
-p {
+h4 p {
   margin-left: 5px;
+}
+/*--------------------------------------------------------------
+# Contacts
+--------------------------------------------------------------*/
+.contacts .contacts-item a {
+  color: #000;
+  text-decoration: none;
+}
+.contacts .contacts-item a,
+p {
+  font-size: 18px;
+}
+@media (max-width: 576px) {
+  .contacts .contacts-item a,
+  p {
+    font-size: 16px;
+  }
 }
 /*--------------------------------------------------------------
 # Footer
