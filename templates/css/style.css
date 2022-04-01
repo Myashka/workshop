@@ -259,6 +259,9 @@ h4 p {
   color: #000;
   text-decoration: none;
 }
+.contacts .contacts-item {
+  margin-bottom: 10px;
+}
 .contacts .contacts-item a,
 p {
   font-size: 18px;
@@ -267,6 +270,14 @@ p {
   .contacts .contacts-item a,
   p {
     font-size: 16px;
+  }
+}
+.contacts iframe {
+  width: 100%;
+}
+@media (max-width: 576px) {
+  .contacts iframe {
+    width: 90%;
   }
 }
 /*--------------------------------------------------------------
