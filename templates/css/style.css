@@ -95,10 +95,16 @@ section#about {
 }
 
 section#contacts {
-  padding-top: 135px;
+  padding-top: 165px;
   padding-bottom: 135px;
 }
 
+@media (max-width: 992px) {
+  section#contacts {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
 /*--------------------------------------------------------------
 # Projects
 --------------------------------------------------------------*/
