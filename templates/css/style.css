@@ -35,14 +35,14 @@ img {
     font-size: 16px;
   }
 }
-.logo {
+.logo h1 {
   font-size: 22px;
   margin: 0;
   padding: 10px 0;
   text-transform: uppercase;
 }
 @media (max-width: 576px) {
-  .logo {
+  .logo h1 {
     font-size: 20px;
   }
 }
@@ -80,7 +80,7 @@ img {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   overflow: hidden;
-  background-image: url("../img/academy.jpg");
+  background-image: url("../img/academy.webp");
 }
 
 /*--------------------------------------------------------------
@@ -140,7 +140,21 @@ section#contacts {
   right: 0;
   transition: 0.3s;
   text-align: center;
-  background-image: -webkit-linear-gradient(
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(0, 0, 0, 0.3)),
+    to(rgba(0, 0, 0, 0.2))
+  );
+
+  background-image: -o-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.2)
+  );
+
+  background-image: linear-gradient(
     top,
     rgba(0, 0, 0, 0.3),
     rgba(0, 0, 0, 0.2)
