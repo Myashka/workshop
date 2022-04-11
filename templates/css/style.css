@@ -262,12 +262,11 @@ section#contacts {
 .aboutus .aboutus-item .aboutus-wrap h3 {
   margin-top: 5px;
   font-weight: 400;
-}
-.aboutus .aboutus-item .aboutus-wrap p {
-  font-size: 20px;
+  font-size: 22px;
   margin-left: 5px;
 }
-.aboutus .aboutus-item .aboutus-wrap h3 {
+.aboutus .aboutus-item .aboutus-wrap p {
+  font-size: 16px;
   margin-left: 5px;
 }
 /*--------------------------------------------------------------
