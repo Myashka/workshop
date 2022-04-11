@@ -254,6 +254,8 @@ section#contacts {
 }
 .aboutus .aboutus-item .aboutus-wrap img {
   width: 100%;
+  object-position: 50% 50%;
+  height: 380px;
 }
 .aboutus .aboutus-item .aboutus-wrap a {
   color: #000;
