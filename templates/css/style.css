@@ -1,6 +1,6 @@
 body {
   position: relative;
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Inter", sans-serif;
 }
 img {
   max-width: 100%;
@@ -40,6 +40,7 @@ img {
   margin: 0;
   padding: 10px 0;
   text-transform: uppercase;
+  font-weight: 500;
 }
 @media (max-width: 576px) {
   .logo h1 {
@@ -234,12 +235,25 @@ section#contacts {
   background-position: bottom;
   background-repeat: no-repeat;
   overflow: hidden;
-  background-color: black;
+  background-image: url("../img/aboutus.jpg");
 }
-
+.aboutus .aboutus-col {
+  margin-left: 150px;
+}
+@media (max-width: 992px) {
+  .aboutus .aboutus-col {
+    margin-left: 0px;
+  }
+}
 .aboutus .aboutus-text {
-  color: #fff;
-  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 22px;
+  line-height: 27px;
+}
+.aboutus .aboutus-teachers {
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  line-height: 27px;
 }
 @media (max-width: 576px) {
   .aboutus .aboutus-text {
