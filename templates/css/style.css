@@ -260,6 +260,11 @@ section#contacts {
     font-size: 18px;
   }
 }
+@media (max-width: 576px) {
+  .aboutus .aboutus-teachers {
+    font-size: 18px;
+  }
+}
 .aboutus .aboutus-item {
   margin-bottom: 40px;
 }
