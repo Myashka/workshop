@@ -337,6 +337,8 @@ p {
 # Footer
 --------------------------------------------------------------*/
 #footer {
+  position: absolute;
+  top: 100%;
   background: #000000;
   color: #fff;
   font-size: 14px;
