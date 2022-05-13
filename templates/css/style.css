@@ -337,7 +337,7 @@ p {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   background: #000000;
   color: #fff;
